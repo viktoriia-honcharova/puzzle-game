@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+.timer-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.timer-block h1 {
+  font-size: 80px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.wrapper {
+  width: 402px;
+  height: 402px;
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.wr-1 {
+  margin-right: 150px;
+}
+
+.box,
+.drop {
+  width: 100px;
+  height: 100px;
+  background-image: url("./pazzle.PNG");
+  border: 1px solid black;
+}
+
+.drop {
+  background-image: none;
+}
+
+#box-1 {
+  background-position: 0 0;
+}
+
+#box-2 {
+  background-position: 33% 0;
+}
+
+#box-3 {
+  background-position: 66% 0;
+}
+
+#box-4 {
+  background-position: 100% 0;
+}
+
+#box-5 {
+  background-position: 0 33%;
+}
+
+#box-6 {
+  background-position: 33% 33%;
+}
+
+#box-7 {
+  background-position: 66% 33%;
+}
+
+#box-8 {
+  background-position: 100% 33%;
+}
+
+#box-9 {
+  background-position: 0 66%;
+}
+
+#box-10 {
+  background-position: 33% 66%;
+}
+
+#box-11 {
+  background-position: 66% 66%;
+}
+
+#box-12 {
+  background-position: 100% 66%;
+}
+
+#box-13 {
+  background-position: 0 100%;
+}
+
+#box-14 {
+  background-position: 33% 100%;
+}
+
+#box-15 {
+  background-position: 66% 100%;
+}
+
+#box-16 {
+  background-position: 100% 100%;
+}
+
+.modal-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: -1;
+}
+
+.modal {
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  display: none;
+  cursor: pointer;
+  z-index: 99;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.modal-text {
+  margin-top: 20px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#modal-time {
+  font-size: 30px;
+}
